@@ -8,7 +8,7 @@ def berakna_rabatt(pris: float, rabatt_procent: float) -> float:
     Exempel: berakna_rabatt(100, 20) ska returnera 80.0
     """
     # BUGG: Just nu lägger den till rabatten istället för att dra ifrån!
-    slutpris = pris + (pris * (rabatt_procent / 100))
+    slutpris = pris - (pris * (rabatt_procent / 100))
     return slutpris
 
 
