@@ -16,6 +16,10 @@ def berakna_rabatt(pris: float, rabatt_procent: float) -> float:
 # UPPGIFT 2 (Löses av Elev B)
 # ==========================================
 def validera_anvandarnamn(anvandarnamn: str) -> bool:
+    if len(anvandarnamn) >= 5:
+        return True;
+    else:
+        return False;
     """Funktionen är inte färdigbyggd.
 
     Ett användarnamn är giltigt (True) om det är minst 5 tecken långt.
