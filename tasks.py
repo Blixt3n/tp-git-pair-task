@@ -41,5 +41,3 @@ def visa_team():
     print("Registrerade medlemmar i teamet:")
     for medlem in TEAM_MEDLEMMAR:
         print(f"- {medlem}")
-
-        
