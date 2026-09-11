@@ -35,9 +35,11 @@ def validera_anvandarnamn(anvandarnamn: str) -> bool:
 # UPPGIFT 3 - MERGE KONFLIKT (Löses av BÅDA samtidigt!)
 # ==========================================
 # OBS! Ändra INTE denna variabel förrän ni når Steg 4 i instruktionen!
-TEAM_MEDLEMMAR = ["Lärare (Mall)"]
+TEAM_MEDLEMMAR = ["Sixten"]
 
 def visa_team():
     print("Registrerade medlemmar i teamet:")
     for medlem in TEAM_MEDLEMMAR:
         print(f"- {medlem}")
+
+        
